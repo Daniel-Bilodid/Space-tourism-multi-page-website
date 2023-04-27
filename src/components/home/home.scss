@@ -59,8 +59,8 @@ color: #D0D6F9;
 .home__button {
     position: absolute;
     cursor: pointer;
-    margin-top: 286px;
-    margin-left: -359px;
+    margin-top: 38px;
+    margin-left: 37px;
     width: 274px;
     height: 274px;
     background-color: #FFFFFF;
@@ -88,13 +88,76 @@ color: #D0D6F9;
 }
 
 
-.home__button-wrapper:hover {
-  
+.button {
+    display: block;
+   cursor: pointer;
+   margin-left: -399px;
+   margin-top: 244px;
 
-   margin-left: -396px;
-   margin-top: 250px;
-   width: 350px;
-   height: 350px;
    border-radius: 50%;
-   background-color:#D0D6F9
+
 }
+
+@media (max-width: 1025px) {
+    .home {
+        background-image: url('../../assets/home/background-home-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        &__info {
+            margin-top: 106px;
+            margin-left: 159px;
+        }
+        &__title {
+            font-family: 'Barlow Condensed';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            /* identical to box height */
+
+            text-align: center;
+            
+            letter-spacing: 3.375px;
+
+            color: #D0D6F9;
+
+        }
+        &__button {
+            width: 242px;
+            height: 242px;
+            margin-top: 220px;
+            margin-left: -66px;
+        }
+
+        &__button span {
+            margin-top: 106px;
+        }
+
+        &__descr {
+            
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+
+        text-align: center;
+
+        color: #D0D6F9;
+
+        }
+        &__space {
+            
+            font-size: 150px;
+        
+            
+            margin: 70px 0;
+
+            color: #FFFFFF;
+        }
+    }
+}
+

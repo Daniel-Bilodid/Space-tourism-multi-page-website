@@ -69,3 +69,31 @@
     mix-blend-mode: normal;
     opacity: 0.25;
 }
+
+.route__link {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1025px) {
+    .nav__bar {
+        margin-top: 0;
+        width: 450px;
+        height: 96px;
+    }
+    .hr {
+        display: none;
+    }
+
+    .nav__list-item span{
+        display: none;
+    }
+
+    .nav__list {
+        margin-left: -5px;
+    }
+    .nav__logo {
+        margin-top: 24px;
+        margin-left: 39px;
+    }
+}

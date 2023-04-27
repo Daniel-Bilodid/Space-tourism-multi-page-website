@@ -78,6 +78,7 @@
 
 
     &-img {
+        animation: animName 170s linear infinite;
         margin-top: 97px;
         margin-left: 230px;
     }
@@ -194,3 +195,13 @@
 
     }
 }
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+      
+  
+      100%{
+        transform: rotate(360deg);
+       }
+   }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../nav/Nav'
+import { Link } from 'react-router-dom';
 import './home.scss'
 const Home = () => {
 
@@ -27,16 +28,20 @@ const Home = () => {
 
 
             
-           <div className="button">
-           <div className="home__button-wrapper">
-           </div>
+          <div className="button__wrapper">
+          <div className="button">
+          <Link to={'/destination'}>
            <div className="home__button">
            
-          
-                <span>EXPLORE</span>
+           <span>EXPLORE</span>
+               
                 </div>
-            
+                <div className="home__button-wrapper">
+                  
            </div>
+           </Link>
+           </div>
+          </div>
         </div>
         </div>
       
